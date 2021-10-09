@@ -13,6 +13,7 @@ public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
    private int value;//1-13
+   private int cardType;
 
    public static final String [] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
     /**
@@ -41,6 +42,14 @@ public class Card {
      */
     public void setValue(int value) {
         this.value = value;
+    }
+
+    public int getCardType() {
+        return cardType;
+    }
+
+    public void setCardType(int cardType) {
+        this.cardType = cardType;
     }
    
    

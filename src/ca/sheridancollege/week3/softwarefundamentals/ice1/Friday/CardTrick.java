@@ -7,6 +7,7 @@ package ca.sheridancollege.week3.softwarefundamentals.ice1.Friday;
  */
 public class CardTrick {
     private int cardNumber; 
+    
     public static void main(String[] args)
     {
      Card.print = new Card();
